@@ -64,3 +64,110 @@ The application is responsive, secure, and optimized for both desktop and mobile
 
 ## 📁 Folder Structure
 
+JOB_PORTAL/
+│
+├── frontend/ # React client app
+│ ├── public/
+│ └── src/
+│ ├── components/
+│ ├── pages/
+│ ├── utils/
+│ └── App.js
+│
+├── backend/ # Node.js Express API
+│ ├── config/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ └── server.js
+│
+├── .gitignore
+├── README.md
+└── package.json
+
+yaml
+Copy
+Edit
+
+---
+
+## ⚙️ Installation & Setup
+
+### Prerequisites
+- Node.js and npm installed
+- MongoDB installed and running
+- Git installed
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Chethan-prabhu01/JOB_PORTAL.git
+cd JOB_PORTAL
+2. Setup Backend
+bash
+Copy
+Edit
+cd backend
+npm install
+# Create a `.env` file and add your MongoDB URI and JWT_SECRET
+npm start
+3. Setup Frontend
+bash
+Copy
+Edit
+cd ../frontend
+npm install
+npm start
+The app will run on:
+
+Frontend: http://localhost:3000
+
+Backend API: http://localhost:5000
+
+💡 Usage
+Register as a user or recruiter.
+
+Recruiters can post job openings.
+
+Users can browse and apply for jobs.
+
+Recruiters can view applications and contact candidates.
+
+🤝 Contributing
+Contributions are welcome! Here’s how you can help:
+
+Fork the repository
+
+Create your feature branch: git checkout -b feature/myFeature
+
+Commit your changes: git commit -m 'Add new feature'
+
+Push to the branch: git push origin feature/myFeature
+
+Submit a pull request
+
+📄 License
+This project is licensed under the MIT License.
+
+🔗 Related Repo
+Inspired by: Original Repo by ankitpathak62
+
+🚧 Project Status: Actively being developed and maintained – [July 2025].
+
+yaml
+Copy
+Edit
+
+---
+
+Let me know if you want this saved as a `README.md` file or included in your repo automatically.
+
+
+
+
+
+
+
+
+Ask ChatGPT
+
+
